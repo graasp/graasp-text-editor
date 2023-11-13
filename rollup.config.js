@@ -7,10 +7,10 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import scss from 'rollup-plugin-scss';
 
 export default {
-  input: ['./src/index.ts', './src/table.ts'],
+  input: ['./src/index.ts'],
   output: {
     dir: './dist',
-    format: 'cjs',
+    format: 'es',
   },
   plugins: [
     peerDepsExternal(),
@@ -55,8 +55,6 @@ export default {
     '@mui/lab',
     '@emotion/styled',
     '@emotion/react',
-    'ag-grid-community',
-    'ag-grid-react',
     'katex',
     'react',
     'react-i18next',
