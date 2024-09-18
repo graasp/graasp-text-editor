@@ -4258,7 +4258,7 @@ __metadata:
     jest-dom: "npm:4.0.0"
     jest-environment-jsdom: "npm:29.7.0"
     jsdom: "npm:22.1.0"
-    katex: "npm:0.16.9"
+    katex: "npm:0.16.11"
     lodash.truncate: "npm:4.4.2"
     npm-run-all: "npm:4.1.5"
     pinst: "npm:3.0.0"
@@ -17791,6 +17791,17 @@ __metadata:
     array-includes: "npm:^3.1.5"
     object.assign: "npm:^4.1.3"
   checksum: c85f6f239593e09d8445a7e43412234304addf4bfb5d2114dc19f5ce27dfe3a8f8b12a50ff74e94606d0ad48cf1d5aff2381c939446b3fe48a5d433bb52ccb29
+  languageName: node
+  linkType: hard
+
+"katex@npm:0.16.11":
+  version: 0.16.11
+  resolution: "katex@npm:0.16.11"
+  dependencies:
+    commander: "npm:^8.3.0"
+  bin:
+    katex: cli.js
+  checksum: adfb95a70168f732c26f44a443d27df393ca641a3533aa9321f37b1b69134cf4b15142d533c187ec9a0b02c0bbfebab5ab26f15bd0cc08a57114e1f767f0d7ae
   languageName: node
   linkType: hard
 
